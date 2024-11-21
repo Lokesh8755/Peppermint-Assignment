@@ -2,7 +2,7 @@
 import React from 'react';
 
 const Header = () => {
-  return <h1>Expense Tracker</h1>;
+  return <h1 style={{color:"goldenrod"}}>Expense Tracker</h1>;
 };
 
 export default Header;

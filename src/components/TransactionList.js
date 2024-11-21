@@ -4,7 +4,7 @@ import React from 'react';
 const TransactionList = ({ transactions, deleteTransaction }) => {
   return (
     <div >
-      <h3>Transaction History</h3>
+      <h3 style={{color:"gray"}}>Transaction History</h3>
       <ul style={{listStyle:"none"}}>
         {transactions.map((transaction) => (
           <li  key={transaction.id}>

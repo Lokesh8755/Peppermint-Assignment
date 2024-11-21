@@ -45,7 +45,7 @@ const AddTransaction = ({ addTransaction }) => {
         <option value="Income">Income</option>
         <option value="Expense">Expense</option>
       </select>
-      <button type="submit" style={{margin:"4px",}}>Add</button>
+      <button type="submit" style={{margin:"4px", padding:"5px 20px",borderRadius:"5px",border:"none", backgroundColor:"orange",cursor:"pointer",color:""}}>Add</button>
     </form>
   );
 };
